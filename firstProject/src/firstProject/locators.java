@@ -51,6 +51,7 @@ public class locators {
 		System.out.println(driver.findElement(By.cssSelector("body p")).getText());
 		Assert.assertEquals(driver.findElement(By.cssSelector("body p")).getText(), "You are successfully logged in.");
 		driver.findElement(By.className("logout-btn")).click();
+		driver.close();
 
 	}
 
