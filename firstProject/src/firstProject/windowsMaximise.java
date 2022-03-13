@@ -16,7 +16,7 @@ public class windowsMaximise {
 //		Time implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-//		Getting the url
+//		Maximising the url
 		driver.manage().window().maximize();
 		
 //		To navigate web pages
