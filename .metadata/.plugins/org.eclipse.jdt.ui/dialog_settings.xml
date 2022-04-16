@@ -3,7 +3,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="1"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-16"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\selenium-server"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\selenium-server\rest-asuured jars"/>
 	<item key="org.eclipse.jdt.ui.last.selected.project.jre" value="jdk-17.0.1"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
@@ -30,5 +30,19 @@
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="NewAnnotationWizardPage">
+		<item key="add_documented" value="false"/>
+		<section name="AddRetention">
+			<item key="enabled" value="false"/>
+			<list key="selectedEnums">
+				<item value="CLASS"/>
+			</list>
+		</section>
+		<section name="AddTarget">
+			<item key="enabled" value="false"/>
+			<list key="selectedEnums">
+			</list>
+		</section>
 	</section>
 </section>
