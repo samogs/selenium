@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-16T20:04:08 WAT" name="Default suite" finished-at="2022-04-16T20:04:08 WAT" duration-ms="81">
+  <suite started-at="2022-04-16T22:25:21 WAT" name="Loan Department" finished-at="2022-04-16T22:25:21 WAT" duration-ms="233">
     <groups>
     </groups>
-    <test started-at="2022-04-16T20:04:08 WAT" name="Default test" finished-at="2022-04-16T20:04:08 WAT" duration-ms="81">
+    <test started-at="2022-04-16T22:25:21 WAT" name="Personal Loan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="88">
+      <class name="test.day2">
+        <test-method signature="ploan()[pri:0, instance:test.day2@7ee955a8]" started-at="2022-04-16T22:25:21 WAT" name="ploan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
       <class name="test.day1">
-        <test-method signature="Demo()[pri:0, instance:test.day1@6dbb137d]" started-at="2022-04-16T20:04:08 WAT" name="Demo" finished-at="2022-04-16T20:04:08 WAT" duration-ms="14" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:test.day1@3c9d0b9d]" started-at="2022-04-16T22:25:21 WAT" name="Demo" finished-at="2022-04-16T22:25:21 WAT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:test.day1@3c9d0b9d]" started-at="2022-04-16T22:25:21 WAT" name="SecondTest" finished-at="2022-04-16T22:25:21 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
       </class> <!-- test.day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-04-16T22:25:21 WAT" name="Car Loan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="20">
+      <class name="test.day3">
+        <test-method signature="APIloginCarLoan()[pri:0, instance:test.day3@2e4b8173]" started-at="2022-04-16T22:25:21 WAT" name="APIloginCarLoan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginCarLoan -->
+        <test-method signature="MobileloginCarLoan()[pri:0, instance:test.day3@2e4b8173]" started-at="2022-04-16T22:25:21 WAT" name="MobileloginCarLoan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method signature="WebloginCarLoan()[pri:0, instance:test.day3@2e4b8173]" started-at="2022-04-16T22:25:21 WAT" name="WebloginCarLoan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2022-04-16T22:25:21 WAT" name="Home Loan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="5">
+      <class name="test.day4">
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:test.day4@a9cd3b1]" started-at="2022-04-16T22:25:21 WAT" name="WebloginHomeLoan" finished-at="2022-04-16T22:25:21 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>
